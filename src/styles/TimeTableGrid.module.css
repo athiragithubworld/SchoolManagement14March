@@ -1,0 +1,142 @@
+.container {
+  /* max-width: 900px; */
+  /* height: calc(100vh - 10.7rem); */
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.2);
+
+  padding: 1.3331rem;
+  border-radius: 1.6669rem;
+  gap: 1.3331rem;
+}
+.container table {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.tableHeadContainer {
+  position: sticky;
+  display: grid;
+  place-content: center;
+  /* top: 2%; */
+  height: 5rem;
+}
+
+.tableBodyContainer {
+  height: calc(100vh - 18rem);
+  overflow-y: auto;
+  scrollbar-width: none;
+  /* scrollbar-color: transparent transparent;
+  scrollbar-width: thin; */
+  /* padding: 0 0.9rem; */
+ padding: 0 0.9rem 0 2rem;
+}
+/* .container thead {
+    z-index: -1;
+  } */
+
+.tableheading {
+  display: flex;
+  gap: 1.25rem;
+  /* padding: 1.25rem; */
+}
+
+.tablecontent {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.columnheading {
+  font-family: "SF Pro Text";
+  width: 5.5625rem;
+  display: grid;
+  place-content: center;
+  font-size: 1.1669rem;
+  border-radius: 0.3331rem;
+  padding: 0.5rem 1.7rem;
+  background-color: #ffffff;
+  box-shadow: 0.125rem 0.125rem 0.75rem 0rem #00000033;
+}
+.container table {
+  /* height: 100%; */
+}
+.tablegrid {
+  display: flex;
+}
+
+.time {
+  /* font-size: .9375rem;
+  display: grid;
+  place-content: center; */
+  width: 5.5625rem;
+  height: 4.25rem;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  margin: 0.5rem 0;
+  /* box-shadow: 2px 2px 12px 0px #00000033; */
+  display: grid;
+  place-content: center;
+}
+
+.facultytime {
+  width: 5.5625rem;
+  height: 4.25rem;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  margin: 0.5rem 0;
+  box-shadow: 0.125rem 0.125rem 0.75rem 0rem #00000033;
+  display: grid;
+  place-content: center;
+  gap: 10px;
+}
+
+.profileDetails {
+  display: flex;
+  gap: 0.16rem;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.facultyphoto {
+  width: 1.5625rem;
+  height: 1.4375rem;
+  border-radius: 50%;
+  justify-self: center;
+  align-self: center;
+}
+
+.facultyname {
+  align-self: center;
+}
+
+.facultysubject {
+  grid-column: 1/-1;
+  font-weight: bold;
+  justify-self: center;
+}
+
+.mathematics {
+  background-color: #f6dbc2;
+}
+
+.science {
+  background-color: #91adff;
+}
+
+.english {
+  background-color: #eaffab;
+}
+
+.hindi {
+  background-color: #ffb8d2;
+}
+
+.social {
+  background-color: #c4f8de;
+}
+
+.biology {
+  background-color: #c3ddf7;
+}
+
+.chemistry {
+  background-color: #f9c6c6;
+}
